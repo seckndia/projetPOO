@@ -1,0 +1,109 @@
+body{
+    background-image: url("images/sld6.jpg");
+    
+   background-attachment: fixed;
+  
+  
+   background-repeat: no-repeat;
+}
+
+
+#titre{
+    text-align: center;
+    position: relative;;
+    top:150px;
+     width:100%;
+     height:250px;
+     z-index:2;
+     font-size:320%;
+     color:whitesmoke;
+    
+}
+
+            
+#defil{ 
+    height:300px;
+    width:100%;
+}
+MARQUEE IMG{
+    height: 230px;
+    width: 500px;
+    top: 10px;
+    box-shadow: 3px 3px 3px 3px blue ;
+}
+ul li a img{
+    width: 50px;
+    height: 25px;
+}
+li a:hover { 
+    color: blue;
+}
+ ul li ul{
+   display: none;
+}
+ ul li:hover ul{
+   display: block;
+   position: absolute;
+}
+li:hover ul li{
+   float: none;
+}
+li ul{
+    position: absolute;
+}
+ul{
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    float: left;
+
+}
+li{
+    margin-left: 10px;
+    float: left;
+    position: relative;
+
+}
+ul li a{
+    display: inline-block;
+    /*float: left;*/
+    width: 200px;
+    background-color: skyblue;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    /*border: 5px solid ;
+    border-radius: 5px;
+    border-color: rgb(9, 104, 247) #0571ec #4373f8 rgb(11, 117, 240);*/
+
+}
+ul li a:hover{
+    background-color: #D3D3D3;
+    border-color: #696969 #DCDCDC #DCDCDC #696969;
+
+}
+footer{
+    background-color:rgba(250, 225, 186, 0.897);
+    /*border: 1px solid blue;*/
+    text-align: center;
+    height: 250px;
+    width:100%;
+    border-radius: 5px 5px 5px 5px;
+}
+footer img{
+    height: 25%;
+    width: 15%;
+}
+
+footer p{
+    font-size: 200%;
+    text-align: center;
+}
+#logo img{
+    
+    height: 5%;
+    width: 5%;
+    margin-left: 5px;
+}

@@ -1,0 +1,58 @@
+/* body{
+    background-image:url(images/font.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    width: 100%;
+  } */
+
+/* ul,li{
+  /* text-align: center; */
+  /* font-family: 'Times New Roman', Times, serif; 
+  font-size: 30px;
+  
+}*/
+
+h2{
+  text-align: center;
+  font-size:40px;
+  font-style: italic;
+  text-decoration: black;
+
+}
+label{
+  
+  font-size:30px;
+  font-style: italic;
+  text-decoration: black;
+}
+.tableau{
+
+    margin-top: 2%;
+            border: medium solid black;
+            border-collapse: collapse;
+            width: 85%;
+            margin-left: 7%;
+            
+            }
+            th {
+            font-family: monospace;
+            border: thin solid #6495ed;
+         
+            font-size: 20px;
+            background-color: #D0E3FA;
+            }
+            td {
+            font-family: sans-serif;
+            border: thin solid #6495ed;
+          
+            font-size: 20px;
+            
+            text-align: center;
+            background-color: #ffffff;
+            }
+            h1  {
+                color: #ffc800;
+                /* width: 100%; */
+                text-align: center;
+              }
